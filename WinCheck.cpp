@@ -14,7 +14,7 @@ bool checkWin(char player) {
         }
     }
     // Check vertical
-    for (int r = 0; r <= 2; r++) {
+    for (int r = 0; r < 2; r++) {
         for (int c = 0; c < 7; c++) {
             if (board[r][c] == player && 
                 board[r + 1][c] == player && 
