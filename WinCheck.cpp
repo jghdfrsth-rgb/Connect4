@@ -1,6 +1,4 @@
 #include <iostream>
-#include "board.h"
-#include "player_input.h"
 #include "WinCheck.h"
 using namespace std;
 bool checkWin(char player) {
