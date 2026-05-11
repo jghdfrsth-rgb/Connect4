@@ -17,6 +17,6 @@ void drawBoard() {
         for (int j = 0; j < 7; j++) {
             cout << board[i][j] << " | ";
         }
-        cout << endl << "---------------------" << endl;
+ cout << endl << "+---+---+---+---+---+---+---+ " << endl;
     }
 }
