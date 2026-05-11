@@ -1,5 +1,6 @@
 #include <iostream>
 #include "WinCheck.h"
+#include "checkDraw"
 using namespace std;
 bool checkWin(char player) {
     // Check horizontal
